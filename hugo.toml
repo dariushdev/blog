@@ -1,0 +1,33 @@
+baseURL = "https://dariushdev.github.io/"
+languageCode = "en-us"
+title = "My Awesome Blog"
+theme = "hugo-blog-awesome"
+publishDir = "docs"
+
+[params]
+  description = "A blog built with Hugo and hugo-blog-awesome"
+
+[Languages.en-gb.params.author]
+  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = ""
+  name = "Darius Rusencik"
+  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/dariushdev"
+
+[[params.socialIcons]]
+name = "hackthebox"
+url = "https://app.hackthebox.com/profile/34044"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@dariushdev"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
